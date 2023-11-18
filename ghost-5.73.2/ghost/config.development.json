@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "C:\\Users\\admonsis-disc\\Documents\\pruebas-ghost\\ghost-5.73.2\\ghost\\content\\data\\ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "C:\\Users\\admonsis-disc\\Documents\\pruebas-ghost\\ghost-5.73.2\\ghost\\content"
+  }
+}
